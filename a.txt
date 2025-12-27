@@ -1,11 +1,11 @@
 hi hari
 cmd (deletion)
-	del (file name)
+	del (file name)                           //windows cmd to delete file
 	git checkout --filename
-	git rm (filename)
-	git rm --cached (filename)
-	git reset HEAD (filename)
-	git restore --staged (filename)
-	git reset --soft HEAD~1
+	git rm (filename)                       //stops tracking in git and file deleted in local
+	git rm --cached (filename)         //stops tracking in git
+	git reset HEAD (filename)         //to unstage
+	git restore --staged (filename)   //to unstage
+	git reset --soft HEAD~1	      
 	git reset --mixed HEAD~1
 	git reset --hard HEAD~1
